@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Welcome",
+        "images": [],
+        "bullets": [
+            "This is lesson one of CSS Training Wheels.",
+            "If you are looking for a good place for a beginner to start, you are in the right place."
+        ]
+    },
+    {
+        "title": "This series is for beginners",
+        "images": [],
+        "bullets": [
+            "This series was created with designers in mind who want to start the transition into front-end-development.",
+            "You do not need to be a designer to benefit from this series",
+            "Even if you are not a beginner there is always more to learn."
+        ]
+    },
+    {
+        "title": "This is prep for more involved courses",
+        "images": [],
+        "bullets": [
+            "Bootcamps go much better if you have an understanding of css.",
+            "Most front-end-develoment video courses expect you to know some css.",
+            "Understanding some css and how css works will make learning to code a lot easier."
+        ]
+    },
+    {
+        "title": "It will be helpful to understand a little HTML",
+        "images": [],
+        "bullets": [
+            "It is not necessary to be an expert in HTML.",
+            "All you need is a basic understanding of how HTML tags are structured",
+            "For example: if you understand this - <p>Some Text</p> - you should be all set."
+        ]
+    },
+    {
+        "title": "CSS is really only about being able to do 2 things",
+        "images": [],
+        "bullets": [
+            "1. Creating Selectors",
+            "2. Setting Properties"
+        ]
+    },
+    {
+        "title": "Today we will be your introduction to selectors",
+        "images": [],
+        "bullets": [
+            "Using the selector builder",
+            "Creating your first selector"
+        ]
+    }
+]
