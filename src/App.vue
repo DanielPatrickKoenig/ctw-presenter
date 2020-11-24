@@ -14,6 +14,7 @@
         :title="slides[slideIndex].title"
         :images="slides[slideIndex].images"
         :bullets="slides[slideIndex].bullets"
+        :markup="slides[slideIndex].html"
         v-on:click="incrementSlide"
       />
     </div>
@@ -89,5 +90,15 @@ header > img{
 }
 header > label{
   float:right;
+}
+div.preview-container, div.code-block{
+  padding:10px;
+  box-shadow: 0 0 0 1px #000000 inset;
+}
+div.code-block{
+  font-size: 14px;
+  color:#666666;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:#eeeeee;
 }
 </style>

@@ -31,7 +31,7 @@
         "bullets": [
             "It is not necessary to be an expert in HTML.",
             "All you need is a basic understanding of how HTML tags are structured",
-            "For example: if you understand this - <p>Some Text</p> - you should be all set."
+            "For example: if you understand this - &lt;p&gt;Some Text&lt;/p&gt; - you should be all set."
         ]
     },
     {
@@ -43,11 +43,51 @@
         ]
     },
     {
-        "title": "Today we will be your introduction to selectors",
+        "title": "Today will be your introduction to selectors",
         "images": [],
         "bullets": [
             "Using the selector builder",
             "Creating your first selector"
+        ]
+    },
+    {
+        "title": "What is a selector?",
+        "images": [],
+        "bullets": [
+            "Before we get to selectors, we should look at the two ways css is applied to html",
+            "In-line styling and Selector styling"
+        ]
+    },
+    {
+        "title": "In-line styling",
+        "images": [],
+        "bullets": [
+            "Applyies a style directly to a single html tag",
+            "<div class='code-block'>&lt;button <span style='color:red;font-weight:bold;'>style='background-color:yellow;'</span>&gt;OK&lt;/button&gt;<br />&lt;button&gt;Cancel&lt;/button&gt;</div><br /><div class='preview-container'><button style='background-color:yellow;'>OK</button><button>Cancel</button></div>"
+        ]
+    },
+    {
+        "title": "Selector styling",
+        "images": [],
+        "bullets": [
+            "Applies style to anything that fits the description of the selector",
+            "<div class='code-block'>&lt;style&gt;<br />&nbsp;&nbsp;<span style='color:red;font-weight:bold;'>button{<br />&nbsp;&nbsp;&nbsp;&nbsp;background-color:yellow;<br />&nbsp;&nbsp;}</span><br />&lt;/style&gt;<br />...<br />&lt;button&gt;OK&lt;/button&gt;<br />&lt;button&gt;Cancel&lt;/button&gt;</div><br /><div class='preview-container'><button style='background-color:yellow;'>OK</button><button style='background-color:yellow;'>Cancel</button></div>"
+        ]
+    },
+    {
+        "title": "Selector styling can be general or specific",
+        "images": [],
+        "bullets": [
+            "The more you know about selectors the more effectively you can use them.",
+            "<div class='code-block'>&lt;style&gt;<br />&nbsp;&nbsp;<span style='color:red;font-weight:bold;'>button:first-child{<br />&nbsp;&nbsp;&nbsp;&nbsp;background-color:yellow;<br />&nbsp;&nbsp;}</span><br />&lt;/style&gt;<br />...<br />&lt;button&gt;OK&lt;/button&gt;<br />&lt;button&gt;Cancel&lt;/button&gt;</div><br /><div class='preview-container'><button style='background-color:yellow;'>OK</button><button>Cancel</button></div>"
+        ]
+    },
+    {
+        "title": "Let's create a selector",
+        "images": [],
+        "bullets": [
+            "Go to url <span style='color:red;'>www.css-training-wheels.com/#/selectors?template=record-list</span>",
+            "You can find the link in the video description"
         ]
     }
 ]
